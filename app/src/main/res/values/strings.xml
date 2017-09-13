@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IMC</string>
+    <string name="logo">logo</string>
+    <string name="digite_seu_peso">Digite seu peso:</string>
+    <string name="digite_sua_altura">Digite sua altura:</string>
+    <string name="btnCalcular">btnCalcular</string>
+    <string name="btnLimpar">btnLimpar</string>
+</resources>

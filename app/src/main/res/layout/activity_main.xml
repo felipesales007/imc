@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.felipe.imc.MainActivity"
+    android:weightSum="1"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="196dp"
+        android:layout_height="196dp"
+        android:id="@+id/logo"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/digite_seu_peso"
+        android:id="@+id/textAltura"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:textColor="#454444"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/logo"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:id="@+id/etPeso"
+        android:background="#ababab"
+        android:numeric="decimal"
+        android:layout_below="@+id/textAltura"
+        android:layout_alignParentStart="true"
+        android:textColor="#1996d5"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:inputType="none" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:id="@+id/etAltura"
+        android:background="#ababab"
+        android:numeric="decimal"
+        android:layout_below="@+id/textPeso"
+        android:layout_alignParentStart="true"
+        android:textColor="#1996d5"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:inputType="none" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/digite_sua_altura"
+        android:id="@+id/textPeso"
+        android:layout_marginTop="29dp"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:textColor="#454444"
+        android:layout_below="@+id/etPeso"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="129dp"
+        android:layout_height="139dp"
+        android:id="@+id/btnCalcular"
+        android:src="@drawable/calcular"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/btnCalcular" />
+
+    <ImageView
+        android:layout_width="129dp"
+        android:layout_height="139dp"
+        android:id="@+id/btnLimpar"
+        android:src="@drawable/botao_limpar"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/btnLimpar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
