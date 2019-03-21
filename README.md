@@ -6,7 +6,6 @@
 | --- | --- |
 |<img src="https://uploaddeimagens.com.br/images/001/970/131/original/2.png" width="450" height="600" /> | <img src="https://uploaddeimagens.com.br/images/001/970/132/original/3.png" width="450" height="600" />
 
-
 Aplicativo Android desenvolvido para calcular o índice de massa corporal.
 
 ## Versão disponível
